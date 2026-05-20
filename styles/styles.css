@@ -1,3 +1,8 @@
+:root{
+    --text_font_size:15pt;
+    --text_align: center;
+}
+
 nav {
     background-color: rgba(100, 132, 173, 0.973);
     padding: 10px;
@@ -12,6 +17,8 @@ nav a {
 
 h1 {
     color: darkblue;
+    font-size: var(--text_font_size);
+    text-align: var(--text_align);
 
 }
 
@@ -39,7 +46,7 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text_align);
 
 }
 
@@ -59,5 +66,5 @@ main img {
 footer {
     margin-top: 15px;
     border-top: 1px solid black;
-    text-align: center;
+    text-align: var(--text_align);
 }
