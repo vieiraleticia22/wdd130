@@ -18,7 +18,7 @@ nav a {
 h1 {
     color: darkblue;
     font-size: var(--text_font_size);
-    text-align: var(--text_align);
+    text-align:left
 
 }
 
