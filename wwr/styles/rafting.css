@@ -39,7 +39,7 @@ article {
     padding: 8px;
 }
 
-.socialmidia a {
+.socialmedia a {
     text-decoration: none;
 
 }
@@ -157,13 +157,13 @@ footer {
     color: black;
 }
 
-.socialmidia {
+.socialmedia {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
 }
 
-.socialmidia img {
+.socialmedia img {
     width: 35px;
     
 }
