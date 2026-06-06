@@ -1,6 +1,6 @@
 :root {
     --primary-color: #87e0a2;
-    --secundary-color: #f4a261;
+    --secundary-color: #f5b078;
     --accent1-color: #49a8d4;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -82,11 +82,13 @@ h1 {
     box-shadow: 10px gray;
 }
 
-h2 {
+h3 {
     background-color: var(--secundary-color);
     opacity: 0.9;
     text-align: center;
-    color: #fff;
+    color: black;
+    padding: 15px;
+    border-bottom: 2px solid white;
 }
 
 header {
@@ -164,4 +166,76 @@ footer {
 .socialmidia img {
     width: 35px;
     
+}
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.map iframe{
+    width: 100%;
+    height: 350px;
+}
+.map{
+    display: flex;
+    align-items: center;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea{
+    width: 100%;
+    
+    box-sizing:border-box;
+    
+}
+.radio-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.checkbox-group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact-form button{
+    padding: 10px;
+    background-color: rgb(219, 216, 216);
+    border-radius: .5rem;
+    
+}
+h1, main > p{
+    text-align: center;
+    padding: 1px;
+}
+.contact-container h2{
+    grid-column: 1/3;
+    text-align: center;
+    color: black;
+    background-color: var(--secundary-color);
+    width: 100%;
+}
+.contact-page h1{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    padding: 5px;
+    background-color: var(--secundary-color);
+    opacity: 0.9;
+    text-align: center;
+    color: black;
+  
 }
