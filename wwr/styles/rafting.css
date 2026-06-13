@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #87e0a2;
+    --primary-color: rgb(35, 84, 219);
     --secundary-color: #f5b078;
     --accent1-color: black;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -238,4 +238,43 @@ h1, main > p{
     text-align: center;
     color: black;
   
+}
+.home-hero{
+    position: relative;
+}
+.home-hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    ;
+    
+}
+.home-hero h1{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color:white;
+    background-color: rgba(0,0,0,.9);
+    padding: 1rem;
+}
+.home-cta{
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f4a261;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.home-grid-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 2rem;
+}
+.home-grid-info img{
+    width: 100%;
 }
